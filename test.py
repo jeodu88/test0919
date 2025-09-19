@@ -13,6 +13,7 @@ import streamlit as st
 def main():
     st.title('행복한 금요일 입니다~')
     st.title('Hello')
+    st.write('😊😊😊😊😊😊')
 
 if __name__ == '__main__':
     main()

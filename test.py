@@ -172,7 +172,7 @@ def main():
             st.markdown("### 👀 미리보기")
             for i, uploaded_file in enumerate(uploaded_files[:4]):
                 image = Image.open(uploaded_file)
-                st.image(image, caption=f"사진 {i+1}", use_column_width=True)
+                st.image(image, caption=f"사진 {i+1}", use_container_width=True)
     
     with col2:
         if uploaded_files:
@@ -188,7 +188,7 @@ def main():
             four_cut = create_four_cut_layout(images, selected_filter)
             
             # 결과 표시
-            st.image(four_cut, caption="인생 네컷", use_column_width=True)
+            st.image(four_cut, caption="인생 네컷", use_container_width=True)
             
             # 다운로드 버튼
             st.markdown("### 💾 다운로드")

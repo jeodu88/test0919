@@ -1,6 +1,5 @@
 # 인생 네컷 메모리북 - 추억을 저장하는 웹사이트
 import streamlit as st
-import cv2
 import numpy as np
 from PIL import Image, ImageFilter, ImageEnhance
 import io

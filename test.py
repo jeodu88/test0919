@@ -129,8 +129,8 @@ def main():
     # 메인 헤더
     st.markdown("""
     <div class="main-header">
-        <h1>📸 인생 네컷 메모리북</h1>
-        <p>소중한 추억을 4컷으로 담아보세요</p>
+        <h1>📸 주곡중 인생 네컷 📸</h1>
+        <p>주곡중에서 소중한 추억을 남기세요요</p>
     </div>
     """, unsafe_allow_html=True)
     

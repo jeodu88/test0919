@@ -7,7 +7,7 @@ import base64
 
 # 페이지 설정
 st.set_page_config(
-    page_title="인생 네컷 메모리북",
+    page_title="주곡중 인생네컷📸",
     page_icon="📸",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -214,8 +214,8 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style="text-align: center; color: #6c757d; padding: 2rem;">
-        <p>💝 소중한 순간들을 영원히 간직하세요</p>
-        <p>Made with ❤️ using Streamlit</p>
+        <p>💝 주곡중에서 소중한 순간들을 영원히 간직하세요</p>
+        <p>Made with ❤️주곡중❤️ using Streamlit</p>
     </div>
     """, unsafe_allow_html=True)
 
